@@ -262,11 +262,13 @@ article.post img{
   .jumbotron {
     border-bottom: 0;
   }
-
-  .jumbotron h1{
-    font-size: 53px;
-    margin: auto;
+  .jumbotron h1 {
+    font-size: 50px;
   }
+
+  img {
+    width:95%;
+}
 
   .logo{
     width: 50%;
