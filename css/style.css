@@ -50,7 +50,7 @@ a{
 }
 
 .jumbotron h1{
-  font-size: 63px;
+  font-size: 93px;
   font-family: "Playfair+Display", serif;
 }
 
@@ -213,6 +213,7 @@ article.post img{
 }
 /* Customize container */
 @media (min-width: 768px) {
+ 
   .container {
     max-width: 730px;
   }
@@ -245,7 +246,7 @@ article.post img{
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -262,8 +263,16 @@ article.post img{
     border-bottom: 0;
   }
 
+  .jumbotron h1{
+    font-size: 53px;
+    margin: auto;
+  }
+
   .logo{
     width: 50%;
     text-align: center;
   }
+  img {
+    width:95%
+}
 }
